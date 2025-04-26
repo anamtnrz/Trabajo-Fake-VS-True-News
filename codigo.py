@@ -12,4 +12,19 @@ import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 
 
+from google.colab import files
+uploaded = files.upload()
 
+true_df = pd.read_csv('True.csv')
+fake_df = pd.read_csv('Fake.csv')
+
+#para unir los datasets, el Label
+true_df['label'] = 1
+fake_df['label'] = 0
+df = pd.concat([true_df, fake_df], ignore_index=True)
+
+df.head(5)
+
+vectorizer = CountVectorizer(stop_words='english', max_features=5000)
+X = vectorizer.fit_transform(df['title']).toarray()
+y = df['label'].values
