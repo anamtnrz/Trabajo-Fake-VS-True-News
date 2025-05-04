@@ -1,6 +1,7 @@
 ## FAKE VS TRUE NEWS
+Trabajo relaizado por Lucia Aranda, ANna Martínez y Marta Ripio.
 
-Esta carpeta incluye los siguientes tres archivos:
+Este proyecto incluye los siguientes tres archivos:
 1. README.md
 2. codigo.py
 3. FakevsTrueNews
