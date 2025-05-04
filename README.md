@@ -1,5 +1,5 @@
 ## FAKE VS TRUE NEWS
-### Trabajo realizado por Lucia Aranda, ANna Martínez y Marta Ripio.
+#### Trabajo realizado por Lucia Aranda, Ana Martínez y Marta Ripio.
 
 Este proyecto incluye los siguientes tres archivos:
 1. README.md
