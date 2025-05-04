@@ -4,7 +4,7 @@
 Este proyecto incluye los siguientes tres archivos:
 1. README.md
 2. codigo.py
-3. FakevsTrueNews
+3. FakevsTrueNews.pdf
 
 ### README.MD
 Es este documento, donde explicamos brevemente como poder visualizar correctamente todos los archivos de la práctica para poder comprenderla en su totalidad.
